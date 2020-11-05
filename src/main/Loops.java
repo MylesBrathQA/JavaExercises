@@ -18,9 +18,15 @@ public class Loops {
 		}
 	}
 
+	private static void printNum(int n, int s) {
+		if (n > 0) {
+			System.out.println(s);
+			printNum(n-1, s);
+		}
+	}
 	public static void exerciseThree() {
 		for(int a= 1; a < 11; a++) {
-			System.out.println(a) * a;
+			printNum(a, a);
 		}
 	}
 	public static void main(String[] args) {
