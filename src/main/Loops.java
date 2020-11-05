@@ -53,14 +53,23 @@ public class Loops {
 				System.out.println("That's 1 20p coin, your current total is: £" + current);
 			} else if (current / 0.02 >= 1) {
 				current = current - 0.02;
-				current = BigDecimal.valueOf(current).setScale(0, RoundingMode.HALF_UP).doubleValue();
+				current = BigDecimal.valueOf(current).setScale(3, RoundingMode.HALF_UP).doubleValue();
 				System.out.println("That's 1 2p coin, your current total is: £" + current);
 			}
 
 		} while (current > 0);
 	}
+	
+	public static int stringMaipulation1(String input) {
+		if (input == null || input.isEmpty()) {
+			return 0;
+		}
+		
+		String[] words = input.split("\\s+");
+		return words.length;
+	}
 
 	public static void main(String[] args) {
-		coinsTask(4.58);
+		System.out.println(stringMaipulation1("Hello World I am the leader"));
 	}
 }
