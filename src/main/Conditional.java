@@ -44,14 +44,23 @@ public class Conditional {
 	}
 
 	public static void main(String[] args) {
-		flowCharts2(6001);
+		int result = blackJack(5, 10);
+		System.out.println(result);
 	}
-	
+
 	public static int blackJack(int a, int b) {
-		if (a + b > 21) {
+		if (a <= 0 || b <= 0) {
 			return 0;
 		} else {
-			return a + b; 
+			if (a + b > 21) {
+				return 0;
+			} else {
+				if (a > b) {
+					return a;
+				} else {
+					return b;
+				}
+			}
 		}
 	}
 }
