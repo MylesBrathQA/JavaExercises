@@ -1,7 +1,7 @@
 package main;
 
 public class Conditional {
-	public static int method1(int a, int b, boolean c) {
+	public static int flowCharts1(int a, int b, boolean c) {
 		if (c == true) {
 			return a + b;
 		} else {
@@ -9,7 +9,7 @@ public class Conditional {
 		}
 	}
 
-	public static void method2(int a) {
+	public static void flowCharts2(int a) {
 		if (a > 2000) {
 			System.out.println("A");
 			if (a > 6000) {
@@ -44,6 +44,14 @@ public class Conditional {
 	}
 
 	public static void main(String[] args) {
-		method2(6001);
+		flowCharts2(6001);
+	}
+	
+	public static int blackJack(int a, int b) {
+		if (a + b > 21) {
+			return 0;
+		} else {
+			return a + b; 
+		}
 	}
 }
