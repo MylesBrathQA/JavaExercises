@@ -20,7 +20,7 @@ public class Loops {
 
 	public static void exerciseThree() {
 		for(int a= 1; a < 11; a++) {
-			System.out.println(a * 10);
+			System.out.println(a) * a;
 		}
 	}
 	public static void main(String[] args) {
