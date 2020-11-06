@@ -37,7 +37,7 @@ public class Loops {
 	public static void coinsTask(double cost) {
 		double payment = 60;
 		double current = payment - cost;
-		System.out.println("This is your starting cost: £" + current);
+		System.out.println("This is your starting cost: Â£" + current);
 		do {
 			if (current / 10 >= 1) {
 				current = current - 10;
