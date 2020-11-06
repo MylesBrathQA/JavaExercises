@@ -1,4 +1,4 @@
-package main;
+package main.objects;
 
 public class Conditional {
 	public static int flowCharts1(int a, int b, boolean c) {
