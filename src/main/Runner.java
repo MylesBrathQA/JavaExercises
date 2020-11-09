@@ -1,11 +1,9 @@
 package main;
 
 import main.objects.Arrays;
-import main.objects.FlowOfControl;
-import main.objects.HelloWorld;
 import main.objects.Iterations;
-import main.objects.operators.Operators;
-import main.oop.Encapsulator;
+import main.oop.model.Lion;
+import main.oop.model.Snake;
 
 public class Runner {
 	public static void main(String[] args) {
@@ -25,8 +23,11 @@ public class Runner {
 		
 		//Person Task
 		//Encapsulator.initPerson();
-			
-		}
 		
-		
+		//Inheritance Task
+		Lion simba = new Lion();
+		System.out.println(simba.isRoar());
+		Snake snake = new Snake("Snake", false, 3);
+		snake.bite();
 	}
+}
