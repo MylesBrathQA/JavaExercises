@@ -1,4 +1,4 @@
-package main.objects;
+package main.oop.model;
 
 public class Person {
 	

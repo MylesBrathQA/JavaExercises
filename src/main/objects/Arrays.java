@@ -13,6 +13,7 @@ public class Arrays {
 	}
 
 	public static void exerciseOne() {
+		System.out.println("Exercise 1");
 		ArrayList<Integer> arrayOne = arrayDefiningMethod1(10);
 
 		for (int item : arrayOne) {
@@ -21,6 +22,7 @@ public class Arrays {
 	}
 	
 	public static void exerciseTwo() {
+		System.out.println("Excercise 2");
 		ArrayList<Integer> arrayTwo = new ArrayList<>();
 		
 		System.out.println("Here is an empty array: " + arrayTwo);
@@ -40,9 +42,9 @@ public class Arrays {
 		
 	}
 
-	public static void main(String[] args) {
+	public static void start() {
+		exerciseOne();
+		System.out.println("\n \n \n ========== \n \n \n");
 		exerciseTwo();
-
 	}
-
 }

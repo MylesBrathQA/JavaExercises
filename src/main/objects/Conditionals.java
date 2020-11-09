@@ -1,6 +1,6 @@
 package main.objects;
 
-public class Conditional {
+public class Conditionals {
 	public static int flowCharts1(int a, int b, boolean c) {
 		if (c == true) {
 			return a + b;
@@ -42,12 +42,7 @@ public class Conditional {
 			}
 		}
 	}
-
-	public static void main(String[] args) {
-		int result = blackJack(5, 10);
-		System.out.println(result);
-	}
-
+	
 	public static int blackJack(int a, int b) {
 		if (a <= 0 || b <= 0) {
 			return 0;
@@ -62,5 +57,17 @@ public class Conditional {
 				}
 			}
 		}
+	}
+	
+	public static void start() {
+		flowCharts1(3, 4, true);
+		flowCharts1(3, 4, false);
+		System.out.println("===================");
+		flowCharts2(3500);
+		flowCharts2(6001);
+		System.out.println("===================");
+		blackJack(9, 10);
+		
+		
 	}
 }

@@ -3,8 +3,9 @@ package main.objects;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-public class Loops {
+public class Iterations {
 	public static void exerciseOne() {
+		System.out.println("Exercise 1");
 		for (int a = 100; a < 200; a++) {
 			System.out.println(a);
 		}
@@ -12,6 +13,7 @@ public class Loops {
 	}
 
 	public static void exerciseTwo() {
+		System.out.println("Exercise 2");
 		for (int a = 100; a <= 200; a++) {
 			if (a % 2 == 0) {
 				System.out.println(a + ": -");
@@ -21,6 +23,7 @@ public class Loops {
 		}
 	}
 
+	//Additional Method for exercise 3
 	private static void printNum(int n, int s) {
 		if (n > 0) {
 			System.out.println(s);
@@ -29,15 +32,17 @@ public class Loops {
 	}
 
 	public static void exerciseThree() {
+		System.out.println("Exercise 3");
 		for (int a = 1; a < 11; a++) {
 			printNum(a, a);
 		}
 	}
 
 	public static void coinsTask(double cost) {
+		System.out.println("Coins Exercise");
 		double payment = 60;
 		double current = payment - cost;
-		System.out.println("This is your starting cost: Â£" + current);
+		System.out.println("This is your starting cost: £" + current);
 		do {
 			if (current / 10 >= 1) {
 				current = current - 10;
@@ -60,7 +65,9 @@ public class Loops {
 		} while (current > 0);
 	}
 	
-	public static int stringMaipulation1(String input) {
+	//need to use sys.out for this method
+	public static int stringManipulation1(String input) {
+		System.out.println("String Manipulation: Task One");
 		if (input == null || input.isEmpty()) {
 			return 0;
 		}
@@ -69,7 +76,17 @@ public class Loops {
 		return words.length;
 	}
 
-	public static void main(String[] args) {
-		System.out.println(stringMaipulation1("Hello World I am the leader"));
+	public static void start() {
+		exerciseOne();
+		System.out.println("\n \n \n ========== \n \n \n");
+		exerciseTwo();
+		System.out.println("\n \n \n ========== \n \n \n");
+		exerciseThree();
+		System.out.println("\n \n \n ========== \n \n \n");
+		coinsTask(4.58);
+		System.out.println("\n \n \n ========== \n \n \n");
+		int sm1Task = stringManipulation1("We are the world we are the children");
+		System.out.println(sm1Task);
+		System.out.println("\n \n \n ========== \n \n \n");
 	}
 }
