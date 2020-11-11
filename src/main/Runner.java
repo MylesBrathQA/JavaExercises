@@ -1,12 +1,16 @@
 package main;
 
-import main.objects.Arrays;
-import main.objects.Iterations;
-import main.oop.model.Lion;
-import main.oop.model.Snake;
+import java.util.Scanner;
+
+import main.scanners.Calculator;
+import main.scanners.StaffManagment;
 
 public class Runner {
+	//Attributes
+	public static Scanner scan;
+	
 	public static void main(String[] args) {
+		scan = new Scanner(System.in);
 		//Hello World Task
 		//System.out.println(HelloWorld.myMessage());
 		
@@ -16,18 +20,32 @@ public class Runner {
 		//Operators Task
 		
 		//Iterations Task
-		Iterations.start();
+		//Iterations.start();
 		
 		//Array Task
-		Arrays.start();
+		//Arrays.start();
 		
 		//Person Task
 		//Encapsulator.initPerson();
 		
 		//Inheritance Task
-		Lion simba = new Lion();
-		System.out.println(simba.isRoar());
-		Snake snake = new Snake("Snake", false, 3);
-		snake.bite();
+		//Lion simba = new Lion();
+		//System.out.println(simba.isRoar());
+		//Snake snake = new Snake("Snake", false, 3);
+		//snake.bite();
+		
+		
+		//Scanner Task
+			//Calculator Task
+		Calculator calc = new Calculator(scan);
+		calc.start();
+		
+			//Person Task
+		StaffManagment people = new StaffManagment(scan);
+		people.menu();
+		scan.close();
+		
+		
+		
 	}
 }

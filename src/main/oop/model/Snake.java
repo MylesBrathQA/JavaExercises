@@ -13,9 +13,8 @@ public class Snake extends Animal {
 	}
 	
 	public Snake(String species, boolean speak, int numberOfLegs) {
-		super();
-		this.species = species;
-		this.speak = speak;
+		super(species, speak, numberOfLegs);
+		
 		
 		if(numberOfLegs !=0) {
 			System.out.println("This is not a snake, legs have been set to 0");

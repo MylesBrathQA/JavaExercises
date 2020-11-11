@@ -1,4 +1,4 @@
-package main.objects;
+package main.objects.arrays;
 
 public class ArrayList {
 

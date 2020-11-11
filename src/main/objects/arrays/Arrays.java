@@ -1,4 +1,4 @@
-package main.objects;
+package main.objects.arrays;
 
 import java.util.ArrayList;
 
