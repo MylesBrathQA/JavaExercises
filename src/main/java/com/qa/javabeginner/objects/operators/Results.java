@@ -1,4 +1,4 @@
-package main.objects.operators;
+package com.qa.javabeginner.objects.operators;
 
 public class Results {
 	private double physics;

@@ -1,4 +1,4 @@
-package main.objects;
+package com.qa.javabeginner.objects;
 
 public class Conditionals {
 	public static int flowCharts1(int a, int b, boolean c) {

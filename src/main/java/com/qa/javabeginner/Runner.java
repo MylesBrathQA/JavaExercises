@@ -1,9 +1,10 @@
-package main;
+package com.qa.javabeginner;
 
 import java.util.Scanner;
 
-import main.scanners.Calculator;
-import main.scanners.StaffManagment;
+import com.qa.javabeginner.oop.Encapsulator;
+import com.qa.javabeginner.scanners.Calculator;
+import com.qa.javabeginner.scanners.StaffManagment;
 
 public class Runner {
 	//Attributes
@@ -26,7 +27,7 @@ public class Runner {
 		//Arrays.start();
 		
 		//Person Task
-		//Encapsulator.initPerson();
+		Encapsulator.initPerson();
 		
 		//Inheritance Task
 		//Lion simba = new Lion();

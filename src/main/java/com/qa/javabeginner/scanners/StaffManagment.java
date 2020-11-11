@@ -1,9 +1,9 @@
-package main.scanners;
+package com.qa.javabeginner.scanners;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import main.oop.model.Person;
+import com.qa.javabeginner.oop.model.Person;
 
 public class StaffManagment {
 	//Attributes

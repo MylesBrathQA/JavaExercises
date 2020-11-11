@@ -1,4 +1,4 @@
-package main.objects.operators;
+package com.qa.javabeginner.objects.operators;
 
 public class Operators {
 	public static double add(double a, double b) {

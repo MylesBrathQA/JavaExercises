@@ -1,4 +1,4 @@
-package main.oop.model;
+package com.qa.javabeginner.oop.model;
 
 public class Animal {
 	

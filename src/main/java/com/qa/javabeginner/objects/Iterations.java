@@ -1,4 +1,4 @@
-package main.objects;
+package com.qa.javabeginner.objects;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

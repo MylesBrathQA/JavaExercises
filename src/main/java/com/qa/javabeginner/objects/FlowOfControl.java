@@ -1,4 +1,4 @@
-package main.objects;
+package com.qa.javabeginner.objects;
 
 public class FlowOfControl {
 	public static void method1() {

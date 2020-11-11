@@ -1,4 +1,4 @@
-package main.objects;
+package com.qa.javabeginner.objects;
 public class DataTypes {
 	// returns are strongly typed meaning what data type you declare in the method is the data type that needs to be returned e.g.
 	public static int returnInt() {

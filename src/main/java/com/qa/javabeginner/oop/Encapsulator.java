@@ -1,8 +1,8 @@
-package main.oop;
+package com.qa.javabeginner.oop;
 
 import java.util.ArrayList;
 
-import main.oop.model.Person;
+import com.qa.javabeginner.oop.model.Person;
 
 public class Encapsulator {
 	// Person Task
